@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="UTF-8">
+    <meta name="description" content="{{ page.title }}">
+    <meta name="author" content="SALES">
+    <meta content="0; url=" http-equiv="refresh"></meta>
+    <script type="module">window.open("{{ page.coupang_link | default: "/" }}", "_self")</script>
+  </head>
+  <body>{%- include coupang-loading.html -%}</body>
+</html>
